@@ -60,3 +60,11 @@ A prime number.
 
 ----------
 A C file exists as well, not used as part of API
+
+gcc -o key_sharding key_sharding.c
+./key_sharding split <NSHARDS> <NTHRESH>
+ --> Secret phrase (prompt)
+ --> Output (shards)
+
+./key_sharding join <shard 1> <shard 2>
+
