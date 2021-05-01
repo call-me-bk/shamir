@@ -53,3 +53,10 @@ Array of your shares, where each share is an `Object` with the corresponding `x`
 Type: `String` or `Number`
 
 A prime number.
+
+
+
+
+
+----------
+A C file exists as well, not used as part of API
